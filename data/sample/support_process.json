@@ -1,0 +1,22 @@
+[
+  {
+    "from": "Intake",
+    "to": "Triage",
+    "label": "classify request"
+  },
+  {
+    "from": "Triage",
+    "to": "Diagnosis",
+    "label": "assign technician"
+  },
+  {
+    "from": "Diagnosis",
+    "to": "Resolution",
+    "label": "apply fix"
+  },
+  {
+    "from": "Resolution",
+    "to": "Closure",
+    "label": "document result"
+  }
+]
